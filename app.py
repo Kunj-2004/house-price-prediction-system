@@ -5,8 +5,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # ✅ Load model & scaler (same as FastAPI code)
-model = joblib.load(r"..\Model\house_price_model.pkl")
-scaler = joblib.load(r"..\Model\scaler.pkl")
+model = joblib.load("Model/house_price_model.pkl")
+scaler = joblib.load("Model/scaler.pkl")
 
 
 # 🏠 Home page
